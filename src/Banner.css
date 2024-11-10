@@ -17,7 +17,7 @@
   padding-bottom: 0.3rem;
 }
 
-.banner_description {
+.banner__description {
   width: 45rem;
   line-height: 1.3;
   padding-top: 1rem;
@@ -26,7 +26,7 @@
   height: 80px;
 }
 
-.banner__fadeBottom {
+.banner--fadeBottom {
   height: 7.4rem;
   background-image: linear-gradient(
     180deg,
