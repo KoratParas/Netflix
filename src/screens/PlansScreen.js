@@ -97,7 +97,7 @@ function PlansScreen() {
         if (sessionId) {
           // Redirect to Stripe Checkout using the session ID
           const stripe = await loadStripe(
-            "pk_test_51QPLpvHX5nY77o1kur8Fs8DyitMImPGI4FQfSZYp28RdHXs3dTkPrmbV283v8pP4nXZcDVPbtZby4GJ0GN1TAvOh00UTm8NncW"
+            process.env.REACT_APP_STRIPE_PUBLIC_KEY
           );
           stripe.redirectToCheckout({ sessionId: sessionId });
         }
