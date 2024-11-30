@@ -7,7 +7,7 @@ import {
   where,
 } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
-import { auth, db } from "../firebase";
+import { db } from "../firebase";
 import "./PlansScreen.css";
 import { useSelector } from "react-redux";
 import { selectUser } from "../features/userSlice";
